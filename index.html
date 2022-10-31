@@ -913,21 +913,23 @@
                             </div>
 
                             <form action="https://formsubmit.co/elcitadoracademyportharcourt@gmail.com" method="POST">
-       <input type="hidden" name="_subject" value="New Message">                     				
+       <input type="hidden" name="_subject" value="New Message">   
+				<input type="hidden" name="_captcha" value="false">
+				<input type="hidden" name="_template" value="table">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                    <input type="text" class="form-control" name="Name" placeholder="Your Name" required>
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Email Address" required>
+                                    <input type="text" class="form-control" name="Email Address" placeholder="Email Address" required>
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Valid Phone Number" required>
+                                    <input type="text" class="form-control" name="Phone Number" placeholder="Valid Phone Number" required>
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Type Your Message Please" required>
+                                    <input type="text" class="form-control" name="Message" placeholder="Type Your Message Please" required>
                                 </div>
                                 
                                 <button style="background-color:red; border-color: red;" type="submit" class="btn btn-primary">
@@ -1005,12 +1007,9 @@
 
                             <button style="background-color: red; border-radius: 10px; border-color: red; color: white; height: 40px;" type="submit">Subscribe Now</button>
                             
-                            <div id="validator-newsletter" class="form-result"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
+             </form>
+			
+                    
             <div class="newsletter-shape">
                 <div class="shape-1">
                     <img src="assets/img/newsletter/newsletter-shape-1.png" alt="image">
@@ -1019,7 +1018,8 @@
                     <img src="assets/img/newsletter/newsletter-shape-2.png" alt="image">
                 </div>
             </div>
-        </div>
+        
+		
         <!-- End Newsletter Area -->
 
         
